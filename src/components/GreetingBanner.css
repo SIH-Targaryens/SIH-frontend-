@@ -1,0 +1,38 @@
+.greeting-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #3cb371 50%, #7ec8e3 100%);
+  border-radius: 12px;
+  margin: 2rem auto 1rem auto;
+  padding: 2rem 2rem 1.5rem 2rem;
+  color: #fff;
+  max-width: 1200px;
+  position: relative;
+}
+.greeting-banner h1 {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.greeting-banner p {
+  margin: 0;
+  font-size: 1.15rem;
+}
+.greeting-icons {
+  display: flex;
+  gap: 1rem;
+}
+.icon-btn {
+  background: rgba(255,255,255,0.15);
+  border: none;
+  border-radius: 50%;
+  padding: 0.7em;
+  color: #fff;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.icon-btn:hover {
+  background: rgba(255,255,255,0.3);
+}
