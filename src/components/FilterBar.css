@@ -1,0 +1,49 @@
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  margin: 0 auto 1.5rem auto;
+  max-width: 1200px;
+  box-shadow: 0 1px 3px #0001;
+}
+.filters {
+  display: flex;
+  gap: 0.5rem;
+}
+.filters button {
+  background: #f3f5f8;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 1.1rem;
+  color: #555;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.filters .active,
+.filters button:hover {
+  background: #3CB371;
+  color: #fff;
+}
+.search-input {
+  border: 1px solid #dde7ef;
+  border-radius: 18px;
+  padding: 0.4rem 1rem;
+  font-size: 1rem;
+  outline: none;
+  width: 220px;
+}
+.nearby-toggle {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+  margin-left: auto;
+  cursor: pointer;
+}
+.nearby-toggle input[type="checkbox"] {
+  accent-color: #3CB371;
+}
