@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <span role="img" aria-label="hat">🎓</span> PathFinder
+        <span role="img" aria-label="hat">🎓</span> Guid-Ed
       </div>
       <ul className="navbar-links">
         <li>Home</li>
