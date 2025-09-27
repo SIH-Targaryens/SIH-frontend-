@@ -1,0 +1,61 @@
+.review-section-container {
+  background: #fff;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.review-section-title {
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
+.review-section-form textarea {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #bbb;
+  padding: 0.6em;
+  font-size: 1rem;
+  margin-bottom: 0.6em;
+  resize: vertical;
+}
+
+.review-section-form button {
+  background: #3cb371;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.7em;
+  font-weight: 500;
+  margin-top: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.review-section-form button:hover {
+  background: #258e5c;
+}
+
+.review-section-list {
+  list-style: none;
+  padding: 0;
+}
+
+.review-section-list li {
+  background: #f7f9fb;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  padding: 0.7em 1em;
+  font-size: 1rem;
+}
+
+.review-section-loading {
+  color: #444;
+  margin-top: 1em;
+}
+
+.review-section-none {
+  color: #888;
+  margin-top: 1em;
+}
