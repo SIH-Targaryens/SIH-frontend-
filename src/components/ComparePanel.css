@@ -1,0 +1,56 @@
+.compare-panel-container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1.7rem;
+  max-width: 600px;
+  margin: 2rem auto;
+}
+
+.compare-panel-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.compare-panel-input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.compare-panel-btn {
+  background: #3cb371;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.compare-panel-btn:disabled {
+  background: #a0dac3;
+  cursor: not-allowed;
+}
+
+.compare-panel-btn:hover:not(:disabled) {
+  background: #258e5c;
+}
+
+.compare-panel-result {
+  margin-top: 2em;
+  background: #f3f5f8;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.98rem;
+}
+
+.compare-panel-error {
+  color: red;
+  margin-top: 2em;
+}
