@@ -1,0 +1,24 @@
+.bookmark-btn {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: #b3b3b3;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0.2em 0.4em;
+  outline: none;
+  vertical-align: middle;
+}
+
+.bookmark-btn.bookmarked {
+  color: #ffd700;
+}
+
+.bookmark-btn:disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.bookmark-btn:hover:not(:disabled) {
+  color: #ffa500;
+}
