@@ -1,0 +1,115 @@
+.college-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 8px #0001;
+  padding: 1.3rem 1.4rem 1rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  min-height: 320px;
+  position: relative;
+  border-top: 4px solid #3cb371;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.college-card:hover {
+  box-shadow: 0 4px 16px #0002;
+  transform: translateY(-4px) scale(1.03);
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.match-circle {
+  border: 3px solid #3cb371;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #333;
+  font-size: 1.1rem;
+  background: #f6fef7;
+  margin-bottom: 0.5rem;
+}
+.match-percent {
+  font-size: 1.3rem;
+  color: #3cb371;
+}
+.match-label {
+  font-size: 0.8rem;
+  color: #888;
+}
+.star-btn {
+  background: none;
+  border: none;
+  font-size: 1.25rem;
+  color: #b3b3b3;
+  cursor: pointer;
+  margin-top: 0.2rem;
+  transition: color 0.2s;
+}
+.star-btn:hover {
+  color: #ffd700;
+}
+.college-title {
+  margin: 0.3rem 0 0.2rem 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+.tags {
+  display: flex;
+  gap: 0.7rem;
+  flex-wrap: wrap;
+  font-size: 0.97rem;
+  margin-top: 0.2rem;
+}
+.tag {
+  background: #f3f5f8;
+  color: #4b4b4b;
+  border-radius: 13px;
+  padding: 0.22em 0.9em;
+  font-size: 0.98rem;
+}
+.colleges-nearby {
+  color: #666;
+  font-size: 0.97rem;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.1rem;
+}
+.card-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: auto;
+}
+.view-btn, .compare-btn {
+  flex: 1 1 0px;
+  padding: 0.55em 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.view-btn {
+  background: #3cb371;
+  color: #fff;
+}
+.view-btn:hover {
+  background: #2ea360;
+}
+.compare-btn {
+  background: #f5f7fa;
+  color: #3cb371;
+  border: 1px solid #3cb371;
+}
+.compare-btn:hover {
+  background: #e6fbee;
+}
