@@ -11,7 +11,7 @@ function CounsellingSupport() {
         </p>
         <div className="counselling-support-actions">
           <button className="counselling-btn">Book a Free Session</button>
-          <a href="mailto:support@pathfinder.com" className="support-link">
+          <a href="mailto:support@Guid-ED.com" className="support-link">
             <i className="fa fa-envelope"></i> Email Support
           </a>
         </div>
