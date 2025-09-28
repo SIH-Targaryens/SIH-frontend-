@@ -5,7 +5,7 @@ function GreetingBanner() {
   return (
     <div className="greeting-banner">
       <div>
-        <h1>Hello, Studenr!</h1>
+        <h1>Hello, Student!</h1>
         <p>
           Based on your interests , here are your top matches:
         </p>
