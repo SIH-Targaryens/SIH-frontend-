@@ -33,7 +33,7 @@ function ChatBot() {
       {open && (
         <div className="chatbot-box">
           <div className="chatbot-header">
-            <span>PathFinder Bot</span>
+            <span>Guid-Ed Bot</span>
             <button className="chatbot-close" onClick={() => setOpen(false)}>×</button>
           </div>
           <div className="chatbot-body">
