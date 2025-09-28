@@ -30,7 +30,7 @@ function Compare() {
           type="text"
           value={collegeIds}
           onChange={e => setCollegeIds(e.target.value)}
-          placeholder="Enter College Names separated by commas"
+          placeholder="Enter College ID separated by commas"
           style={{ width: "100%", padding: "0.7em", marginBottom: "1em", borderRadius: 8, border: "1px solid #ccc" }}
         />
         <button
