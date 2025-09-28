@@ -23,6 +23,9 @@
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.34.1"
   },
+
+  "proxy": "http://localhost:8000"
+  
   "browserslist": {
     "production": [
       ">0.2%",
